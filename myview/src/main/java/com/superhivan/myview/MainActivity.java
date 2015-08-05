@@ -77,8 +77,7 @@ public class MainActivity extends Activity {
 
             TextView tv = new TextView(MainActivity.this);
             tv.setText(mDatas.get(position));
-            tv.setGravity(Gravity.CENTER);
-            tv.setHeight(60);
+
             return tv;
         }
     }
